@@ -1,14 +1,20 @@
-# Next.js + CSS + TS Declaration Fix
+# Next.js + CSS + TypeScript Declaration Fix
 
-Found a small DX issue in a fresh Next.js project: CSS side-effect imports trigger a TS error. Here’s why it happens and the minimal fix.
+This repository demonstrates a small DX issue in a fresh Next.js project where
+TypeScript reports an error for CSS side-effect imports, and shows a minimal fix.
 
 ## Background
 
-When you create a new Next.js project, it throws an error: "Cannot find module or type declarations for side-effect import of './globals.css'.". This issue occurs because TypeScript by default does not support CSS side-effect imports.
+When creating a new Next.js project, TypeScript may report the following error:
+
+> Cannot find module or type declarations for side-effect import of './globals.css'.
+
+This happens because TypeScript does not include type declarations for CSS
+side-effect imports by default, even though the runtime behavior is valid.
 
 ## Solution
 
-To fix this, create a new declaration file in the root of the project that allows TypeScript to understand the CSS side-effect import.
+Add a global declaration file to inform TypeScript how to handle CSS imports.
 
 [`custom.css.d.ts`](./custom.css.d.ts)
 
@@ -21,6 +27,12 @@ declare module '*.module.css' {
 }
 ```
 
+## Notes
+
+This does not affect runtime behavior — it only resolves TypeScript’s
+type-checking.
+
 ## References
 
-- **Medium article:** Next.js + CSS + TS Declaration Fix
+- **Medium:** (link)
+- **LinkedIn:** (link)
