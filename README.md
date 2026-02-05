@@ -34,5 +34,5 @@ type-checking.
 
 ## References
 
-- **Medium:** (link)
+- **Medium:** [https://medium.com/@heghine.dev357/next-js-css-typescript-declaration-fix-b9373d263935](https://medium.com/@heghine.dev357/next-js-css-typescript-declaration-fix-b9373d263935)
 - **LinkedIn:** (link)
