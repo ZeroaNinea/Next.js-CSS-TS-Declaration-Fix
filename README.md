@@ -35,4 +35,4 @@ type-checking.
 ## References
 
 - **Medium:** [https://medium.com/@heghine.dev357/next-js-css-typescript-declaration-fix-b9373d263935](https://medium.com/@heghine.dev357/next-js-css-typescript-declaration-fix-b9373d263935)
-- **LinkedIn:** (link)
+- **LinkedIn:** [https://www.linkedin.com/posts/heghine-avetisyan-650291384_github-zeroanineanextjs-css-ts-declaration-fix-activity-7425263388118765568-E0gR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF65u1wB9H1-ubZzSD57xKxHzaCjo-chsps](https://www.linkedin.com/posts/heghine-avetisyan-650291384_github-zeroanineanextjs-css-ts-declaration-fix-activity-7425263388118765568-E0gR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF65u1wB9H1-ubZzSD57xKxHzaCjo-chsps)
