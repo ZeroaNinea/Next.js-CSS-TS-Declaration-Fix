@@ -7,7 +7,7 @@ TypeScript reports an error for CSS side-effect imports, and shows a minimal fix
 
 When creating a new Next.js project, TypeScript may report the following error:
 
-> Cannot find module or type declarations for side-effect import of './globals.css'.
+> Cannot find module or type declarations for side-effect import of "./globals.css".
 
 This happens because TypeScript does not include type declarations for CSS
 side-effect imports by default, even though the runtime behavior is valid.
@@ -29,7 +29,7 @@ declare module '*.module.css' {
 
 ## Notes
 
-This does not affect runtime behavior — it only resolves TypeScript’s
+This does not affect runtime behavior — it only resolves TypeScript's
 type-checking.
 
 ## References
